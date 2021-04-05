@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #7ed6df;
+    font-family: 'Times New Roman', Times, serif;
+}
+a {
+    text-decoration: none;
+}
+h2 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+h4 {
+    color: gray;
+    letter-spacing: 3px;
+}
+h5 {
+    color: #00b894;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+p {
+    color: #000;
+    padding-left: 30px;
+    margin-bottom: -10px;
+}
+button {
+    cursor: pointer;
+    padding: 8px 80px;
+    outline: none;
+    border: 1px solid;
+    margin-top: 30px;
+    margin-left: 35px;
+    border-radius: 15px 15px;
+    background-color: #7ed6df;
+}
+button:hover {
+    background-color: #000;
+}
+.clear {
+    clear: both;
+}
+#form {
+    height: 500px;
+    margin-left: 40%;
+    width: 300px;
+    margin-top: 120px;
+    border-radius: 5px 5px ;
+    background-color: #ffffff;
+}
+.textbox {
+    width: 220px;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 2px solid gray;
+    float: left;
+    margin-left: 30px;
+}
+.textbox input {
+    outline: none;
+    border: none;
+    background: none;
+}
+.fas {
+    font-size: 15px;
+}
+.log {
+    text-align: center;
+    color: gray;
+    margin-left: -40px;
+    margin-top: 10px;
+}
+.facebook i,.google i , .twitter i {
+    color: #ffffff;
+}
+.facebook {
+    cursor: pointer;
+    margin-top: 40px;
+    float: left;
+    padding: 15px 22px;
+    border-radius: 50%;
+    background-color: #0984e3;
+    margin-left: 50px;
+}
+.google {
+    cursor: pointer;
+    margin-top: 40px;
+    float: left;
+    padding: 15px 17px;
+    border-radius: 50%;
+    margin-left: 25px;
+    background-color:#d63031;
+}
+.twitter {
+    cursor: pointer;
+    margin-top: 40px;
+    float: left;
+    padding: 15px 17px;
+    border-radius: 50%;
+    margin-left: 25px;
+    background-color:#7ed6df;
+}
