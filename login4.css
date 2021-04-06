@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #535c68;
+}
+.clear {
+    clear: both;
+}
+/* Acc */
+#account {
+    height: 430px;
+    width: 1000px;
+    margin-top: 200px;
+    background-color: #576574;
+    margin-left: 230px;
+    border-radius: 5px 5px ;
+}
+#account img {
+    width: 400px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.input-right {
+    float: right;
+    margin-right: 100px;
+    margin-top: 40px;
+}
+.input-right h3 {
+    color: #fff;
+    margin-top: 10px;
+}
+.input-right input {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 60px;
+    background-color:#535c68;
+    border: 2px solid #fff;
+    outline: none;
+}
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: #fff;
+    margin-top: 30px;
+    background-color: #fd79a8 ;
+    border: 2px solid #fff;
+    cursor: pointer;
+    outline: none;
+}
+/* Acc */
+
+/* Icon */
+i {
+    margin-right: 5px;
+}
+.facebook a{
+    float: left;
+    text-decoration: none;
+    height: 30px;
+    width: 110px;
+    margin-top: 40px;
+    background-color: #0984e3;
+    color: #fff;
+    text-align: center;
+    padding-top: 6px;
+    border-radius: 4px 4px;
+}
+.google a{
+    float: left;
+    text-decoration: none;
+    height: 30px;
+    width: 110px;
+    margin-left: 20px;
+    margin-top: 40px;
+    background-color: #d63031;
+    color: #fff;
+    text-align: center;
+    padding-top: 6px;
+    border-radius: 4px 4px;
+}
+.twitter a {
+    float: left;
+    text-decoration: none;
+    height: 30px;
+    width: 110px;
+    margin-left: 20px;
+    margin-right: -8px;
+    margin-top: 40px;
+    background-color: #74b9ff;
+    color: #fff;
+    text-align: center;
+    padding-top: 6px;
+    border-radius: 4px 4px;
+}
+
+/* Icon */
