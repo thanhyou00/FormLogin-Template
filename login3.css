@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-variant: small-caps;
+    background-color: gray;
+}
+a {
+    text-decoration: none;
+}
+.clear {
+    clear: both;
+}
+.text-cen {
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+}
+#form {
+    width: 450px;
+    height: 500px;
+    background-color: #00d2d3;
+    margin-left: 34%;
+    margin-top: 100px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#right h3 {
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000;;
+}
+#left h3 {
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+    color: #fff;
+}
+#left h3:hover{
+    color: black;
+}
+#left {
+   float: left;
+   width: 50%;
+   background-color: #54a0ff;
+   height: 50px;
+   border-radius: 5px 0 0 0 ;
+}
+#right {
+   float: right;
+   width: 50%;
+   height: 50px;
+   background-color: #00d2d3;
+   border-radius: 0 5px 0 0 ;
+}
+input {
+    padding-left: 20px;
+    padding-right: 110px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    border: 0px solid;
+    border-radius: 3px 3px ;
+}
+.input-one {
+    outline: none;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.input-two {
+    outline: none;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.left-log {
+    float: left;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.left-log p {
+    margin-left: 25px;
+    margin-top: -20px;
+    color: aqua;
+}
+.right-log {
+    float: right;
+    margin-top: 25px; 
+    margin-right: 50px;
+}
+.right-log p:hover {
+    color: aliceblue;
+}
+button {
+    padding: 8px 60px;
+    margin-top: 80px;
+    margin-left: 30%;
+    background-color: #1dd1a1;
+    outline: none;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+i {
+    color: #fff;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.footer-fb {
+    width: 100%;
+    height: 60px;
+    margin-top: 95px;
+    background-color: #00a8ff;
+}
+.fb {
+    height: 60px;
+    width: 60px;
+    background-color: #0097e6;
+}
+.text-fb {
+    float: right;
+    margin-top: -40px;
+    margin-right: 120px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+.footer-gg {
+    width: 100%;
+    height: 60px;
+    background-color: #e84118;
+}
+.gg {
+    height: 60px;
+    width: 60px;
+    background-color: red;
+}
+.text-gg {
+    float: right;
+    margin-top: -40px;
+    margin-right: 135px;
+    letter-spacing: 2px;
+    color: #fff;
+}
