@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: gray;
+    font-variant: small-caps;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 60px;
+    font-size: 24px;
+}
+input {
+    padding: 8px 50px;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 15px 15px;
+    margin-top: 10px;
+    background: none;
+}
+.clear {
+    clear: both;
+}
+.sign1 {
+    color: #7ed6df;
+}
+.hr {
+    height: 3px;
+    width: 100%;
+    background-color: #CAD3C8;
+}
+.nav {
+    padding-top: 50px;
+    margin-left: 50px;
+}
+#form {
+    width: 450px;
+    height: 550px;
+    background-image: url(https://images.pexels.com/photos/1980720/pexels-photo-1980720.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    opacity: 0.6;
+    margin-top: 120px;
+    margin-left: 500px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2px 5px 10px  #fff;
+}
+#input-main {
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.input-1, .input-2 {
+    margin-top: 30px;
+}
+.checkbox {
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.text {
+    margin-left: 30px;
+    margin-top: -20px;
+}
+.btn-submit {
+    margin-left: 110px;
+    margin-top: 30px;
+    outline: none;
+    border: 1px solid #fff;
+    background-color: #01a3a4;
+    cursor: pointer;
+    border-radius: 20px 20px;
+    padding: 8px 90px;
+}
+.btn-submit p {
+    color: #fff;
+    font-variant: small-caps;
+}
+/* Icon */
+.icon {
+    margin-left: 70px;
+}
+.fas {
+    font-size: 15px;
+}
+.log {
+    text-align: center;
+    color: gray;
+    margin-left: -40px;
+    margin-top: 10px;
+}
+.facebook i,.google i , .twitter i {
+    color: #ffffff;
+}
+.facebook {
+    cursor: pointer;
+    margin-top: 40px;
+    float: left;
+    padding: 15px 22px;
+    border-radius: 50%;
+    background-color: #0984e3;
+    margin-left: 50px;
+}
+.google {
+    cursor: pointer;
+    margin-top: 40px;
+    float: left;
+    padding: 15px 17px;
+    border-radius: 50%;
+    margin-left: 25px;
+    background-color:#d63031;
+}
+.twitter {
+    cursor: pointer;
+    margin-top: 40px;
+    float: left;
+    padding: 15px 17px;
+    border-radius: 50%;
+    margin-left: 25px;
+    background-color:#7ed6df;
+}
+.text-end {
+    color: #01a3a4;
+    margin-top: 20px;
+    text-align: center;
+}
