@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: gray;
+}
+.clear {
+    clear: both;
+}
+#form-main {
+    width: 900px;
+    height: 600px;
+    margin-top: 100px;
+    margin-left: 280px;
+    background-color: black;
+    border-radius: 10px 10px 10px 10px ;
+    box-shadow: 5px 10px 15px;
+}
+#form-left {
+    height: 100%;
+    width: 450px;
+    float: left;
+    border-radius: 10px 0px 0px 10px ;
+    opacity: 0.8;
+    background-image: url(https://images.pexels.com/photos/556662/pexels-photo-556662.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+#form-right {
+    background-color: #ffffff;
+    border-radius: 0px 10px 10px 0px ;
+    width: 450px;
+    height: 100%;
+    float: right;
+}
+.brand {
+    margin-top: 40px;
+    text-align: center;
+    font-style: italic;
+}
+.brand h2 {
+    padding-bottom: 50px;
+    font-style: oblique;
+}
+.btn-input {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.btn-input  p {
+    padding-top: 15px;
+}
+.forgot {
+    float: right;
+}
+a {
+    text-decoration: none;
+}
+input{
+    outline: none;
+    background: none;
+    border: 0px ;
+    margin-top: 20px;
+}
+.btn-sign {
+    padding: 6px 50px;
+    border-radius: 15px 15px ;
+    outline: none;
+    border: 1px solid #00a8ff;
+    background-color: gray;
+    margin-top: 40px;
+    margin-left: 145px;
+    cursor: pointer;
+}
+.btn-sign h3 {
+    color: #ffffff;
+}
+.text-main {
+    color: #ffffff;
+    font-style:italic;
+}
+.text-1 {
+    float: left;
+    margin-left: 50px;
+    margin-top: 300px;
+}
+.text-main h3 {
+    text-align: center;
+    margin-top: 150px;
+}
+.text-end {
+    padding-top: 10px;
+}
+/* Icon */
+.icon {
+    margin-left: 80px;
+}
+.fas {
+    font-size: 15px;
+}
+.log {
+    text-align: center;
+    color: gray;
+    margin-left: -40px;
+    margin-top: 10px;
+}
+.facebook i,.google i , .twitter i {
+    color: #ffffff;
+}
+.facebook {
+    cursor: pointer;
+    margin-top: 40px;
+    float: left;
+    padding: 15px 22px;
+    border-radius: 50%;
+    background-color: #0984e3;
+    margin-left: 50px;
+}
+.google {
+    cursor: pointer;
+    margin-top: 40px;
+    float: left;
+    padding: 15px 17px;
+    border-radius: 50%;
+    margin-left: 25px;
+    background-color:#d63031;
+}
+.twitter {
+    cursor: pointer;
+    margin-top: 40px;
+    float: left;
+    padding: 15px 17px;
+    border-radius: 50%;
+    margin-left: 25px;
+    background-color:#7ed6df;
+}
+.text-end {
+    color: #01a3a4;
+    margin-top: 20px;
+    text-align: center;
+}
