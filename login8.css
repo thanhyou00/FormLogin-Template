@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #2f3640;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+p {
+    color: azure;
+}
+#form {
+    background-color: black;
+    height: 500px;
+    width: 700px;
+    margin-top: 80px;
+    margin-left: 400px;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 2px 5px 10px #000;
+}
+.clear {
+    clear: both;
+}
+#your-logo {
+    height: 50px;
+    width: 100%;
+    padding-top: 25px;
+}
+.p1 {
+    color: yellow;
+    float: left;
+    margin-left: 50px;
+    letter-spacing: 3px;
+}
+.p2 {
+    color: aliceblue;
+    float: right;
+    margin-right: 515px;
+    letter-spacing: 3px;
+}
+.x {
+    float: right;
+    font-size: 25px;
+    color: aliceblue;
+    margin-top: -30px;
+    margin-right: 20px;
+}
+.text {
+    color: #535c68;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16px;   
+}
+#input {
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.input_1 p , .input_2 p {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.input_1 input, .input_2 input {
+    padding-top: 10px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 140px;
+    outline: none;
+    border: 2px solid #1e90ff;
+    border-radius: 4px 4px 4px 4px;
+}
+.btn button {
+    padding: 8px 60px;
+    background: none;
+    border: 1px solid #1e90ff;
+    margin-top: 45px;
+    margin-left: 260px;
+    cursor: pointer;
+}
+#login i {
+    letter-spacing: 5px;
+}
+#login {
+    margin-left: 30px;
+    margin-top: 80px;
+}
+.icon {
+    margin-left: 100px;
+    margin-top: -20px;
+}
+.end {
+    float: right;
+    margin-top: -20px;
+    margin-right: 50px;
+}
+.end .p3 {
+    float: left;
+    margin-right: 20px;
+    letter-spacing: 2px;
+}
+.end .p4 {
+    float: right;
+    padding: 6px 20px;
+    margin-top: -10px;
+    background-color: #fed330;
+    border-radius: 4px 4px 4px 4px;
+    letter-spacing: 2px;
+}
+.p4 p {
+    color: #000;
+}
